@@ -17,17 +17,19 @@ export default function Projects() {
                 class="portfolio"
                 src="/Images/petPal.png"
                 height={200}
-                width={300}
+                width={200}
               />
             </a>
           </Col>
           <Col lg={3}>
-            <Image
-              class="portfolio"
-              src="/Images/Hottakes.png"
-              height={200}
-              width={300}
-            />
+            <a href="https://hot-takes-reviews-b29812e3e846.herokuapp.com/">
+              <Image
+                class="portfolio"
+                src="/Images/HotTakes.gif"
+                height={200}
+                width={200}
+              />
+            </a>
           </Col>
         </Row>
       </Container>
