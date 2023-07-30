@@ -1,11 +1,36 @@
 import React from "react";
+import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
+import Row from "react-bootstrap/Row";
 
 export default function Projects() {
   return (
-    <div>
-      <h1>Werk!</h1>
-
-      <p>Here are a few of my projects!</p>
-    </div>
+    <Container fluid class="d-flex justify-content-center">
+      <Container>
+        <h1>Werk!</h1>
+        <p>Here are a few of my projects!</p>
+        <Row class="d-flex justify-content-around">
+          <Col lg={3}>
+            <a href="https://outlawdisco.github.io/Pet-Pal/">
+              <Image
+                class="portfolio"
+                src="/Images/petPal.png"
+                height={200}
+                width={300}
+              />
+            </a>
+          </Col>
+          <Col lg={3}>
+            <Image
+              class="portfolio"
+              src="/Images/Hottakes.png"
+              height={200}
+              width={300}
+            />
+          </Col>
+        </Row>
+      </Container>
+    </Container>
   );
 }

@@ -1,17 +1,18 @@
 * {
   background-color: #8291ab;
   color: #ffdac3;
+  font-family: Cormorant Garamond, sans-serif;
 }
 
 .nav .nav-link {
+  font-weight: bolder;
   background-color: #8291ab;
-  border-bottom: #2b334e;
   color: #ffdac3;
 }
-Nav.link :active {
+.eventkey:active {
   color: #9d8189;
   font-weight: bolder;
-  background-color: #2b334e;
+  transition: all 0.3s ease;
 }
 
 h1 {
@@ -20,4 +21,12 @@ h1 {
 }
 p {
   text-align: center;
+}
+
+.portfolio {
+  margin: 25px;
+}
+
+a:hover {
+  box-shadow: 10px 10px 10px red;
 }

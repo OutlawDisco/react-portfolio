@@ -10,14 +10,14 @@ function NavTabs({ currentPage, handlePageChange }) {
         onClick={() => handlePageChange("Home")}
         className={currentPage === "Home" ? "nav-link active" : "nav-link"}
       >
-        Home
+        About Me
       </Nav.Link>
       <Nav.Link
         eventKey="projects"
         onClick={() => handlePageChange("Projects")}
         className={currentPage === "Projects" ? "nav-link active" : "nav-link"}
       >
-        Projects
+        Portfolio
       </Nav.Link>
       <Nav.Link
         eventKey="experience"
@@ -26,7 +26,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           currentPage === "Experience" ? "nav-link active" : "nav-link"
         }
       >
-        Experience
+        Resume
       </Nav.Link>
       <Nav.Link
         eventKey="contact"
