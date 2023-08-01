@@ -37,9 +37,8 @@ p {
   text-align: center;
 }
 
-.about-me .photo {
-  display: flex;
-  flex-direction: column;
+.image {
+  size: 20%;
 }
 
 .portfolio {
@@ -49,27 +48,11 @@ p {
   color: #2b334e;
 }
 
-.footer {
-  width: 100%;
-  height: 200px;
-  background: #8291ab;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding-top: 10px;
-  margin-top: 200px;
-}
-
-.socials svg {
-  display: flex;
-  justify-content: center;
-  color: #ffdac3;
-  margin: 20px;
-  font-size: 70px;
+.socials {
+  size: 30%;
   cursor: pointer;
 }
 
-/* .footer p {
-  color: #ffdac3;
-} */
+.experienece-p {
+  color: #2b334e;
+}
