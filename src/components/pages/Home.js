@@ -6,18 +6,17 @@ export default function Home() {
     <div>
       <h1>Angela Outlaw-Lyons</h1>
       <p>Full-stack developer & artist</p>
-      <Figure class="photo">
+      <div class="d-flex justify-content-center">
         <Figure.Image
-          width={171}
-          height={180}
+          width={271}
+          height={280}
           alt="headshot"
           src="/Images/Headshot.jpg"
         />
-        <div class="about"></div>
-      </Figure>
-      <div class="skills">
-        I've worked with: Node.js, Express.js, SQL, NoSQL, MongoDB, React
       </div>
+      <p class="skills">
+        I've worked with: Node.js, Express.js, SQL, NoSQL, MongoDB, React
+      </p>
     </div>
   );
 }
