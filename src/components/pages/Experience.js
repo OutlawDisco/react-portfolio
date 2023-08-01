@@ -23,8 +23,8 @@ export default function Experience() {
             icon={<SchoolIcon />}
           >
             <h3 class="vertical-timeline-element-title">Boston Arts Academy</h3>
-            <p>HighSchool Diploma</p>
-            <p>Major: Dance</p>
+            <p className="experienece-p">HighSchool Diploma</p>
+            <p className="experienece-p">Major: Dance</p>
           </VerticalTimelineElement>
 
           {/* Work Experience */}
@@ -35,7 +35,9 @@ export default function Experience() {
             icon={<PointOfSaleIcon />}
           >
             <h3 class="vertical-timeline-element-title">Customer Service</h3>
-            <p>Sales, Inventory,Continued Education</p>
+            <p className="experienece-p">
+              Sales, Inventory,Continued Education
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element==work"
@@ -44,8 +46,10 @@ export default function Experience() {
             icon={<BoltIcon />}
           >
             <h3 class="vertical-timeline-element-title">Comicopia</h3>
-            <p>Manager</p>
-            <p>Customer Service, Media, Community Outreach</p>
+            <p className="experienece-p">Manager</p>
+            <p className="experienece-p">
+              Customer Service, Media, Community Outreach
+            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element==work"
@@ -54,7 +58,7 @@ export default function Experience() {
             icon={<PetsIcon />}
           >
             <h3 class="vertical-timeline-element-title">Dog Grooming</h3>
-            <p>
+            <p className="experienece-p">
               Managment, Bathing, Grooming, NGAA certification &continued
               education{" "}
             </p>
@@ -69,7 +73,7 @@ export default function Experience() {
             <h3 class="vertical-timeline-element-title">
               DU Full-Stack Bootcamp
             </h3>
-            <p>Certification</p>
+            <p className="experienece-p">Certification</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
