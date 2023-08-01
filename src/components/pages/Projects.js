@@ -6,13 +6,17 @@ import Row from "react-bootstrap/Row";
 
 export default function Projects() {
   return (
-    <Container fluid class="d-flex justify-content-center">
-      <Container>
+    <div className="container-fluid">
+      <div>
         <h1>Werk!</h1>
         <p>Here are a few of my projects!</p>
-        <Row class="d-flex justify-content-around">
-          <Col lg={3}>
-            <a href="https://outlawdisco.github.io/Pet-Pal/">
+        <div className="row">
+          <div class="d-flex justify-content-around">
+            <a
+              href="https://outlawdisco.github.io/Pet-Pal/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image
                 class="portfolio"
                 src="/Images/petPal.png"
@@ -20,9 +24,13 @@ export default function Projects() {
                 width={200}
               />
             </a>
-          </Col>
-          <Col lg={3}>
-            <a href="https://hot-takes-reviews-b29812e3e846.herokuapp.com/">
+          </div>
+          <div class="d-flex justify-content-around">
+            <a
+              href="https://hot-takes-reviews-b29812e3e846.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image
                 class="portfolio"
                 src="/Images/HotTakes.gif"
@@ -30,9 +38,9 @@ export default function Projects() {
                 width={200}
               />
             </a>
-          </Col>
-        </Row>
-      </Container>
-    </Container>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
