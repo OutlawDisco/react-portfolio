@@ -1,8 +1,9 @@
 import React from "react";
-import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
-import Row from "react-bootstrap/Row";
+import PetPal from "../../Images/petPal.png";
+import HotTakes from "../../Images/HotTakes.gif";
+import Quiz from "../../Images/quiz.png";
+import TechBlog from "../../Images/techblog.png";
 
 export default function Projects() {
   return (
@@ -17,12 +18,7 @@ export default function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <Image
-                class="portfolio"
-                src="/Images/petPal.png"
-                height={200}
-                width={200}
-              />
+              <Image class="portfolio" src={PetPal} height={200} width={200} />
             </a>
           </div>
           <div class="d-flex justify-content-around">
@@ -33,7 +29,7 @@ export default function Projects() {
             >
               <Image
                 class="portfolio"
-                src="/Images/HotTakes.gif"
+                src={HotTakes}
                 height={200}
                 width={200}
               />
@@ -45,12 +41,7 @@ export default function Projects() {
               target="_blank"
               rel="noreferrer"
             >
-              <Image
-                class="portfolio"
-                src="/Images/quiz.png"
-                height={200}
-                width={200}
-              />
+              <Image class="portfolio" src={Quiz} height={200} width={200} />
             </a>
           </div>
           <div class="d-flex justify-content-around">
@@ -61,7 +52,7 @@ export default function Projects() {
             >
               <Image
                 class="portfolio"
-                src="/Images/techblog.png"
+                src={TechBlog}
                 height={200}
                 width={200}
               />
