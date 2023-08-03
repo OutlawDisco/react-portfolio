@@ -11,7 +11,7 @@ export default function Projects() {
         <h1>Werk!</h1>
         <p>Here are a few of my projects!</p>
         <div className="row">
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-around">
             <a
               href="https://outlawdisco.github.io/Pet-Pal/"
               target="_blank"
@@ -25,7 +25,7 @@ export default function Projects() {
               />
             </a>
           </div>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-around">
             <a
               href="https://hot-takes-reviews-b29812e3e846.herokuapp.com/"
               target="_blank"
@@ -39,7 +39,7 @@ export default function Projects() {
               />
             </a>
           </div>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-around">
             <a
               href="https://outlawdisco.github.io/Quiz-Me/"
               target="_blank"
@@ -53,7 +53,7 @@ export default function Projects() {
               />
             </a>
           </div>
-          <div class="d-flex justify-content-center">
+          <div class="d-flex justify-content-around">
             <a
               href="https://adol-mvc-tech-blog-97325c0ed57f.herokuapp.com/"
               target="_blank"
