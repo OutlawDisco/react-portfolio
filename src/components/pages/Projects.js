@@ -4,6 +4,7 @@ import PetPal from "../../Images/petPal.png";
 import HotTakes from "../../Images/HotTakes.gif";
 import Quiz from "../../Images/quiz.png";
 import TechBlog from "../../Images/techblog.png";
+import Budgie from "../../Images/Screenshot 2023-08-03 133519.png";
 
 export default function Projects() {
   return (
@@ -56,6 +57,15 @@ export default function Projects() {
                 height={200}
                 width={200}
               />
+            </a>
+          </div>
+          <div class="d-flex justify-content-around">
+            <a
+              href="https://budgie-c967e4a5fd01.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Image class="portfolio" src={Budgie} height={200} width={200} />
             </a>
           </div>
         </div>
