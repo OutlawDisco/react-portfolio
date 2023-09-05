@@ -6,7 +6,7 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <Nav className="flex-column">
       <Nav.Link
-        href="/home"
+        eventKey="home"
         onClick={() => handlePageChange('Home')}
         className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
       >
