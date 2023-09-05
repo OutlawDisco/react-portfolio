@@ -13,7 +13,7 @@ export default function Contact() {
       <div className="row">
         <div class="socials d-flex justify-content-center">
           <a
-            href="www.linkedin.com/in/angela-outlaw-lyons-544071288"
+            href="www.linkedin.com/in/angela-outlaw-lyons-544071288/"
             target="_blank"
             rel="noreferrer"
           >
