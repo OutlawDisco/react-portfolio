@@ -1,21 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.9c6abf51.css",
-    "main.js": "/react-portfolio/static/js/main.44494765.js",
+    "main.css": "/react-portfolio/static/css/main.c79a7bc4.css",
+    "main.js": "/react-portfolio/static/js/main.41a487ce.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/ray-mallick-5J1bHRX1fNw-unsplash.jpg": "/react-portfolio/static/media/ray-mallick-5J1bHRX1fNw-unsplash.f8d823cbb238586d6a05.jpg",
+    "static/media/backyard.jpg": "/react-portfolio/static/media/backyard.c9c27798ffc7cac753b6.jpg",
     "static/media/HotTakes.gif": "/react-portfolio/static/media/HotTakes.ce873d67ef8e31ab78eb.gif",
-    "static/media/Headshot.jpg": "/react-portfolio/static/media/Headshot.a7f42eb2386ecccd0b13.jpg",
-    "static/media/Screenshot 2023-08-03 133519.png": "/react-portfolio/static/media/Screenshot 2023-08-03 133519.1096ae3c7147fc98f1a8.png",
-    "static/media/techblog.png": "/react-portfolio/static/media/techblog.1c6aef2632f4563dd618.png",
     "static/media/quiz.png": "/react-portfolio/static/media/quiz.6921dce67fce62f490e8.png",
     "static/media/petPal.png": "/react-portfolio/static/media/petPal.3c6a3543e5903822e376.png",
     "index.html": "/react-portfolio/index.html",
-    "main.9c6abf51.css.map": "/react-portfolio/static/css/main.9c6abf51.css.map",
-    "main.44494765.js.map": "/react-portfolio/static/js/main.44494765.js.map",
+    "main.c79a7bc4.css.map": "/react-portfolio/static/css/main.c79a7bc4.css.map",
+    "main.41a487ce.js.map": "/react-portfolio/static/js/main.41a487ce.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c6abf51.css",
-    "static/js/main.44494765.js"
+    "static/css/main.c79a7bc4.css",
+    "static/js/main.41a487ce.js"
   ]
 }
